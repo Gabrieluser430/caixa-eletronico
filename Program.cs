@@ -74,7 +74,7 @@ public class cardHolder
       double withdrawal = Double.Parse(Console.ReadLine());
       if (currentUser.Balance < withdrawal)
       {
-        Console.WriteLine("Insufficient balance: :(");
+        Console.WriteLine("Insufficient balance :(");
       }
       else
       {
